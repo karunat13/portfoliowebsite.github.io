@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Personal Portfolio Website </title>
+    <link rel = "stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2dc530d217.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src ="images/logo.jpg" class = "logo">
+                <ul id = "sidemeu">
+                    <li>
+                        <a href="#header"> HOME</a>
+                    </li>
+                    <li><a href=" #about"> ABOUT</a> </li>
+                    <li><a href=" #services"> CERTIFICATION</a> </li>
+                    </li>
+                    <li> <a href=" #portfolio"> MY PROJECT</a> </li>
+                    <li>
+                        <a href=" #contact"> MY CONTACT</a>
+                    </li>
+                    <i class="fa-solid fa-xmark" onclick = "closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>
+                    Frontend Developer 
+                </p>
+                <h1> Hey , I am<span> Karuna Tyagi</span>  </h1>
+            </div>
+        </div>
+    </div>
+ 
+    <div id="about">
+        <div class="container">
+            <div class="row">
+             <div class="about-col-1">
+                <img src="images/WhatsApp Image 2023-06-27 at 2.58.38 PM.jpeg">
+             </div>
+             <div class="about-col-2">
+                <h2 class="sub-title"> About Me</h2><br>
+                <p><h3> An Enthusiastic learner who is capableto use technical skills for the betterment of the organization.</h3></p>
+                <div class="tab-title">
+                    <p class="tab-links active-link" onclick="opentab('Skills')"> Skills</p>
+                    <p class="tab-links" onclick="opentab('Experience')"> Experience</p>
+                    <p class="tab-links" onclick="opentab('Education')"> Education</p>
+ 
+
+
+                </div>
+                <div class="tab-contents active-tab" id = "Skills">
+                    <ul>
+                        <li><span> HTML </span> <br> </li>
+                        <li><span> CSS </span> <br> </li>
+                        <li><span> Javascript </span> <br> </li>
+                        <li><span> C++ </span> <br> </li>
+                        <li><span> SQL </span> <br> </li>
+                        <li><span> Python </span> <br> </li>
+                        <li><span> Java </span> <br> </li>
+                        <li><span> Data Structures </span> <br> </li>
+                    </ul>
+                 </div>
+                 <div class="tab-contents" id = "Experience">
+                    <ul>
+                        <li><span>Web Development Intern at DicorInfosys Pvt Ltd. </span> <br> Jul 2022 – Sep 2022 | Delhi, India <br>
+                            •Supported the company's business
+                            objectives and strategies while
+                            gaining real-world experience.
+                            <br> Expert in
+                            HTML and as well as scripting
+                            languages and JavaScript. <br> 
+                            •Created user interfaces using HTML5,
+                            CSS3, and modern
+                            JavaScript framework</li> <br> 
+                        <li><span>Campus Ambassador at Coding Ninja - A
+                            coding platform</span> <br> Jan 2022 – Jun 2022 <br>
+                            •Develop leadership skills by bringing
+                            positive, enthusiastic energy to
+                            a new work environment </li>
+                       
+                        
+                    </ul>
+                 </div>
+                 <div class="tab-contents" id = "Education">
+                    <ul>
+                        <li><span>B.Tech Computer Science
+                            Engineering, Dronacharya College
+                            of Engineering </span> <br> 2020 – present | Gurugram, India
+                            With an aggregate of 85% (till 5th
+                            semester )</li>
+                        <li><span>12th | Sri krishna public school</span> <br> 2018 – 2019 | Delhi, India
+                            CBSE board </li>
+                            <li><span> 10th | Sri krishna public school</span> <br>2017– 2016 | Delhi, India
+                                CBSE board </li>
+                       
+                        
+                    </ul>
+                 </div>
+             </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- --------------------------- my projects -------------------->
+    <div id="services">
+      <div class="container">
+        <h2 class="sub-title"> Certifications</h2><br>
+        <div class="services-list">
+
+        <div>
+            <h2> STUDY JAMS PROGRAM </h2>
+            <p><h3> - Certification of completing Android Kotlin course </h3></p>
+            <a href= " #"> Learn More</a>
+        </div> 
+        <div>
+            <h2>  IIT KHARAGPUR</h2> 
+            
+            <p><h3> <ul>- Certification of participation in codepile ,organised by
+                Entrepreneurship Cell</h3></ul>
+                </p>
+                <a href= " #"> Learn More</a>
+        </div> 
+        <div>
+            <h2> CODE STUDIO</h2>
+            <p><h3> - Certificate of Achievement , sucessfully completed the
+                TCS NQT TEST PREPARATION PATH</h3>
+
+                </p>
+                <a href= " #"> Learn More</a>
+        </div> 
+        </div>
+
+      </div>
+
+    </div>
+    <!---------------- my projects ----------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h2 class="sub-title"> My Projects </h2><br>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+
+
+                        <h2> RECOMMENDATION SYSTEM</h2><br>
+                        <p> <h4> - A Recommendation System is a filtration
+                            program whose prime
+                            goal is to predict the “rating” or “preference”
+                            of a user towards a
+                            domain-specific item . <br>
+                             - Skills Used- HTML/CSS, JavaScript, DOM</h4></p>
+                    </div>
+
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+
+
+                        <h2> TEMPERATURE CONVERTER</h2> <br>
+                        <p> <h4> - It Input the value in either Celsius or
+                            Fahrenheit .Get the converted
+                            value without clicking any button. <br>
+                             - Skills Used- HTML/CSS, JavaScript</h4></p>
+                    </div>
+
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+
+
+                        <h2> Virtual Mouse Using Hand Gesture Recognition</h2><br>
+                        <p> <h4> - Virtual Mouse with Hand Gesture Recognition is a project that shows a novel way to control mouse movement with a real-time
+                            camera / Web camera . This device has the potential to benefit everyone, especially paralysed people who have difficulty using a
+                            real mouse.<br> - Python and OpenCV will be used to build the system</h4></p>
+                    </div>
+
+                </div>
+
+
+
+
+
+            </div>
+        </div>
+
+    </div>
+    <!--- -----------------------------------contact----------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>karunatyagi14@gmail.com@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+918588055438</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                        <a href="#"><i class="fa-solid fa-envelope"></i></a>
+                    </div>
+                    <a href="myresume.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">submit</button>
+                    </form>
+                    <span id="msg"> </span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright <i class="fa-regular fa-copyright"></i> All rights are with Karuna Tyagi<i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+   
+           
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+
+</script>
+<script>
+    var sidemeu = document.getElementById("sidemeu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+
+ 
+
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxZvUJaZcBV0hIDZhBA7C9zEl8cGKfEfqO9EgYk5rowDfofArQ5JJXlmOEVVEA8ABkJ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById(" msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = " Message sent sucessfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
